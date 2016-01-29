@@ -46,3 +46,8 @@ RedisInit::getInstance()->set('test', 'lesorb');
 $return = RedisInit::getInstance()->get('test');
 var_dump($return);
 ~~~~
+
+-------------------------------------------------
+## Contact me
+lesorb@hotmail.com
+
