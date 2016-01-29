@@ -1,6 +1,6 @@
 <?php
 // redis master server address
-$config['redis']	= array(
+return array(
 						'cluster' => true, //enable [true] when redis version is gt 3.0.
 						'timeout' => 10,
 						'database' => 0,	//enable when cluster is false.
