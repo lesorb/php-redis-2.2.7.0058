@@ -49,7 +49,7 @@ class RedisInit {
     * @return RedisConnection
     */
     public function getConnection( $key = '' ) {
-        $_redis_config = common_config('redis');
+        $_redis_config = include('conf/config.php');
         if (empty($_redis_config)) {
             throw new Exception(_('REDIS configuration error.'));
         }
