@@ -30,7 +30,7 @@ extension="{php_extensions_dir)/redis.so"
 {phpdir}/bin/php -i |grep 'Redis Version'
 and show below
 Redis Version => 2.2.7.0058
-
+Until 58 times, it complies successful.
 -------------------------------------------------
 ## Usage
 
